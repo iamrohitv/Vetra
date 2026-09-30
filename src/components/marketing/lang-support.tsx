@@ -1,5 +1,4 @@
 import { SUPPORTED_LANGUAGES } from "@/constants/countries";
-import { Plus } from "lucide-react";
 import Container from "../global/container";
 
 const LanguageSupport = () => {
@@ -27,12 +26,6 @@ const LanguageSupport = () => {
                         <span className="text-lg lg:text-xl">{language.name}</span>
                     </Container>
                 ))}
-                <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-                    <span className="flex items-center justify-center w-6 h-6 rounded-full bg-muted">
-                        <Plus size={14} />
-                    </span>
-                    <span>And more</span>
-                </div>
             </div>
         </div>
     )
